@@ -1,0 +1,105 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+
+ul li {
+    color: white !important;
+}
+
+.bg {
+    background-color: rgba(113, 88, 226,0.6) !important;
+    color: white;
+}
+
+h3 {
+    margin-top: 15px;
+    color: rgba(44, 62, 80);
+    font-weight: 400;
+}
+
+button {
+    height: 60px;
+    font-size: 28px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px rgb(19, 12, 92);
+
+}
+
+.title h1:hover {
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+}
+
+#example {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  } 
+
+.myfirst {
+    color: white !important;
+    position: relative;
+    animation-direction: alternate;
+    animation: myfirst 14s linear infinite !important;
+}
+
+.card-bg {
+    background-color: rgb(51, 54, 74,0.8);
+    width: 250px;
+    overflow: hidden;
+}
+
+mat-card {
+    border-radius: 20px;
+    height: 280px !important;
+    width: 100% !important;
+}
+
+@keyframes myfirst {
+    0% {
+        top: -25px;
+        opacity: 1;
+    }
+    6% {
+        top: 0px;
+        opacity: 1;
+    }
+    
+    45% {
+        top: 0px;
+        opacity: 1;
+    }
+    
+    50% {
+        top: 0px;
+        opacity: 0;
+    }
+    
+    56% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    96% {
+        top: 0px;
+        opacity: 1;
+    }
+    
+    100% {
+        top: -25px;
+        opacity: 0;
+    }
+}
+
